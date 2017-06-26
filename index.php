@@ -61,13 +61,13 @@
                 
                 function uploadPhoto() {
                        var source;
-                      source="http://localhost/boozingo/"+s+"2.jpg"; 
+                      source="/"+s+"2.jpg"; 
                         
                 FB.api(
                     "/me/photos",
                     "POST",
                     {
-                        "url": "http://2.media.dorkly.cvcdn.com/58/64/a9e5a0dcbb872c0ec3dd9bd01f3980a1.jpg"
+                        "url": "/"+s+"2.jpg"
 
                     },
                     function (response)     
